@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051748215788",
+    "project_id": "expressoko",
+    "storage_bucket": "expressoko.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051748215788:android:69d7a6506271a1943aeec9",
+        "android_client_info": {
+          "package_name": "com.aistudio.expressoko.kxmpzq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1hj_he-Job6cFpJSEHeKl-HzkStXxhNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

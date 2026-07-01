@@ -1,0 +1,6 @@
+{
+  "name": "ExpresSoko",
+  "description": "An offline-first dual-role digital e-commerce marketplace featuring both Customer and Retailer environments, dynamic M-Pesa STK push payments, in-app English/Kiswahili language switching, local product carts, and a Gemini-powered smart retailer statistics brief.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
