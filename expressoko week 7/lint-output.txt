@@ -1,0 +1,57 @@
+Reusing configuration cache.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:lintAnalyzeDebug UP-TO-DATE
+> Task :app:generateDebugLintReportModel UP-TO-DATE
+> Task :app:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :app:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :app:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :app:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :app:lintReportDebug UP-TO-DATE
+
+> Task :app:lintDebug FAILED
+Lint found 1 error, 73 warnings. First failure:
+
+/app/applet/app/src/main/AndroidManifest.xml:7: Error: Permission exists without corresponding hardware <uses-feature android:name="android.hardware.camera" android:required="false"> tag [PermissionImpliesUnsupportedChromeOsHardware]
+    <uses-permission android:name="android.permission.CAMERA" />
+     ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "PermissionImpliesUnsupportedChromeOsHardware":
+   The <uses-permission> element should not require a permission that implies
+   an unsupported large screen hardware feature. Google Play assumes that
+   certain hardware related permissions indicate that the underlying hardware
+   features are required by default. To fix the issue, consider declaring the
+   corresponding <uses-feature> element with required="false" attribute.
+
+   https://developer.android.com/topic/arc/manifest.html#implied-features
+
+
+The full lint text report is located at:
+  /app/applet/app/build/intermediates/lint_intermediate_text_report/debug/lintReportDebug/lint-results-debug.txt
+31 actionable tasks: 1 executed, 30 up-to-date
+Configuration cache entry reused.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExpresSoko</string>
+    <string name="welcome">Karibu kwenye ExpresSoko</string>
+    <string name="choose_role">Chagua aina ya akaunti ili kuendelea:</string>
+    <string name="customer">Mteja</string>
+    <string name="retailer">Muuzaji</string>
+    <string name="register">Jisajili</string>
+    <string name="login">Ingia</string>
+    <string name="username_hint">Majina Kamili</string>
+    <string name="phone_hint">Nambari ya Simu</string>
+    <string name="id_hint">Nambari ya Kitambulisho</string>
+    <string name="password_hint">Nywila</string>
+    <string name="already_have_account">Tayari una akaunti? Ingia</string>
+    <string name="dont_have_account">Ukaazi mpya? Jisajili</string>
+    <string name="home_title">Kituo cha ExpresSoko</string>
+    <string name="catalogue_title">Katalogi</string>
+    <string name="cart_title">Kikapu cha Ununuzi</string>
+    <string name="profile_title">Wasifu wa Mtumiaji</string>
+    <string name="messages_title">Ujumbe</string>
+    <string name="logout">Ondoka</string>
+    <string name="switch_lang">Switch to English</string>
+    <string name="otp_title">Thibitisha Nambari ya Siri</string>
+    <string name="otp_instructions">Tumetuma nambari ya siri ya tarakimu 4 kwa nambari yako ya simu ili kuthibitisha usajili.</string>
+    <string name="verify_btn">Thibitisha &amp; Endelea</string>
+    <string name="enable_2fa">Washa Uhakiki wa 2FA unapoingia</string>
+    <string name="add_to_cart">Weka Kikapuni</string>
+    <string name="pay_now">Lipa kwa M-PESA</string>
+    <string name="total_due">Kiasi cha Kulipa: KES %d</string>
+</resources>
